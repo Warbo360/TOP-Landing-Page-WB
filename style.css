@@ -1,15 +1,28 @@
 body {
+    max-width: none;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    flex: none;
+}
+
+.container-1 {
+    width: -webkit-fill-available ;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.right-links ul {
+    display: flex;
+    gap: 10px;
 }
 
 .header ul li {
