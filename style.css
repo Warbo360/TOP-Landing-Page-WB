@@ -69,8 +69,8 @@ body {
 }
 
 .hero-content img {
-    width: 100px;
-    height: 100px;
+    height: auto;
+    width: 300px;
 }
 
 .hero-left {
@@ -104,9 +104,11 @@ body {
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
-    gap: 30px;
     align-items: center;
+    padding: 50px;
+    height: 450px;
+    gap: 50px;
+}
 }
 
 .container-2 h2 {
@@ -120,10 +122,12 @@ body {
     justify-content: center;
     align-items: center;
     gap: 75px;
+    margin-bottom: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .im-text {
-    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,8 +140,8 @@ body {
 .im-im {
     border: 4px solid #3882f6;
     border-radius: 15px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .container-3 {
@@ -170,16 +174,41 @@ body {
 
 .sign-up-box {
     display: flex;
-    width: 300px;
-    height: 150px;
+    width: 80%;
+    height: 33%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.sign-up-text {
+    color: #f9f8fa;
+    font-size: 18px;
+}
+
+.sign-text {
+    font-weight: 800;
 }
 
 .sign-up-box button {
-    width: 200px;
-    height: 20px;
+    width: 100px;
+    /* height: 20px; */
+    background-color: #3882f6;
+    /* height: 20px; */
+    padding: 5px;
+    /* border-color: #fff; */
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     height: 75px;
+    color:#e5e7eb
 }
